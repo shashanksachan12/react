@@ -31,10 +31,10 @@ function App() {
       <h2>Counter value : {counter}</h2>
       <p className='button-container' >
       <p>Above limit of counter is 20 </p>
-      <button onClick={addValue} id='button1'>add value: {counter}</button>
+      <button onClick={addValue} id='button1'>Add value: {counter}</button>
       <br></br>
       <p>Lower limit of counter is 0 </p>
-      <button onClick={removeValue} id='button2'> delete value:  {counter}</button>
+      <button onClick={removeValue} id='button2'> Delete value:  {counter}</button>
       </p>
       <footer>Footer:{counter}</footer>
     </>

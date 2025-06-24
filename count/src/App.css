@@ -56,25 +56,31 @@
   border-radius: 1%;
   box-shadow: 3px 5px 6px 2px rgb(50, 30, 30);
 }
-#button1{
-  margin:5px;
+
+#button1 {
+  margin: 5px;
   background: rgb(120, 235, 120);
-  color:white;
+  color: white;
 }
-#button2{
-  margin:5px;
+
+#button2 {
+  margin: 5px;
   background: rgb(202, 117, 124);
-  color:white;
+  color: white;
 }
-#sha{
-  
+
+#sha {
   font-size: 32px;
+  /* Large, readable font size */
   font-weight: bold;
+  /* Bold for emphasis */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(90deg, #007cf0, #00dfd8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* Clean, modern font stack */
+  color: rgb(4, 58, 79);
+  /* Fallback transparent text color */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  /* Soft shadow for depth */
   letter-spacing: 1px;
+  /* Slight spacing between letters */
   text-align: center;
 }
